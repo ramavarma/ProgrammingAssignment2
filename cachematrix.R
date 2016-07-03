@@ -1,9 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
-
 ## makeCacheMatrix function creates a special "matrix" object that can cache its inverse.
 ## The functon has following getter and setter methods to set the value
-## setMatrix: Sets the Matrix
+## setMatrix: Sets the Matrix to calculate inverse
 ## getMatrix: Gets the Matrix that has been set
 ## setInverse: Sets the inverse of Matrix
 ## getInverse: Gets the inverse of the Matrix

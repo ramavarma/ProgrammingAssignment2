@@ -2,10 +2,11 @@
 
 Matrix inversion is usually a costly computation and there may be some benefit to caching the inverse of a matrix rather than compute it repeatedly (there are also alternatives to matrix inversion that we will not discuss here). Your assignment is to write a pair of functions that cache the inverse of a matrix.
 
+
 # Caching the Inverse of a Matrix
 ### makeCacheMatrix
 makeCacheMatrix function creates a special "matrix" object that can cache its inverse. The functon has following getter and setter methods to set the value 
-- setMatrix: Sets the Matrix 
+- setMatrix: Sets the Matrix to calculate inverse
 - getMatrix: Gets the Matrix that has been set
 - setInverse: Sets the inverse of Matrix
 - getInverse: Gets the inverse of the Matrix
